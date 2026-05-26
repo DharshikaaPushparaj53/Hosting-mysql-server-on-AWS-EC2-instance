@@ -5,7 +5,8 @@ Step 1: Search for EC2
 <img width="1358" height="541" alt="image" src="https://github.com/user-attachments/assets/d472c045-cb51-441b-a162-24d296028f2d" />
 
 Step 2: Click on Launch instances
-<img width="1358" height="541" alt="image" src="https://github.com/user-attachments/assets/316c57cd-3ca8-40f0-a092-a7c6d64a1ff0" />
+<img width="1358" height="541" alt="image" src="https://github.com/user-attachments/assets/4052f0bf-e701-41b0-bd64-de2ebee4a27b" />
+
 
 Step 3: Select without a walkthrough
 <img width="1364" height="510" alt="image" src="https://github.com/user-attachments/assets/28402637-e988-472c-befd-71079d751037" />
