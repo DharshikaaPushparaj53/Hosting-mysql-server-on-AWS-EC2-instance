@@ -69,15 +69,18 @@ Note down the public IP address of the instance and click on connect
 
 **Enter the commands below, one after another, to update the system and install MySQL Server on the EC2 instance.**
 
-code: **sudo apt update -y** (**sudo** -> allows normal user to execute root commands, **apt** -> Ubuntu package manager, **update** -> update the system)
+          code: **sudo apt update -y** 
+          (**sudo** -> allows normal user to execute root commands, **apt** -> Ubuntu package manager, **update** -> update the system)
 
-code: **sudo apt install mysql-server -y** -> This command will install MySQL server on the EC2 instance.
+          code: **sudo apt install mysql-server -y**
+          ( This command will install MySQL server on the EC2 instance.)
 
-code: **sudo systemctl status mysql** -> (**sudo** -> allows normal user to execute root commands, **systemctl** -> system control, **status** -> to check the status, **mysql** -> checks mysql server status)
+          code: **sudo systemctl status mysql**
+          (**sudo** -> allows normal user to execute root commands, **systemctl** -> system control, **status** -> to check the status, **mysql** -> checks mysql server status)
 
 <img width="1366" height="420" alt="image" src="https://github.com/user-attachments/assets/4fba2cd9-590d-4d73-8f8e-1ee203438886" />
 
-code: **sudo mysql** -> this will allow us to access and log in to the MySQL server as a root user
+          code: **sudo mysql** -> this will allow us to access and log in to the MySQL server as a root user
 
 <img width="1366" height="247" alt="image" src="https://github.com/user-attachments/assets/b7234c54-aefc-4309-bd9a-2e19ec18cb75" />
 
