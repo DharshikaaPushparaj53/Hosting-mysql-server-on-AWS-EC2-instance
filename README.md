@@ -71,22 +71,21 @@ Note down the public IP address of the instance and click on connect
 
           sudo apt update -y
           
-          (**sudo** -> allows normal user to execute root commands, **apt** -> Ubuntu package manager, **update** -> update the system)
+(**sudo** -> allows normal user to execute root commands, **apt** -> Ubuntu package manager, **update** -> update the system)
 
           sudo apt install mysql-server -y
           
-          ( This command will install MySQL server on the EC2 instance.)
+**( This command will install MySQL server on the EC2 instance.)**
 
           sudo systemctl status mysql
           
-          (**sudo** -> allows normal user to execute root commands, **systemctl** -> system control, **status** -> to check the status, **mysql** -> checks mysql server status)
+**(**sudo** -> allows normal user to execute root commands, **systemctl** -> system control, **status** -> to check the status, **mysql** -> checks mysql server status)**
 
 <img width="1366" height="420" alt="image" src="https://github.com/user-attachments/assets/4fba2cd9-590d-4d73-8f8e-1ee203438886" />
 
-          
           sudo mysql
           
-          (This will allow us to access and log in to the MySQL server as a root user)
+**(This will allow us to access and log in to the MySQL server as a root user)**
 
 <img width="1366" height="247" alt="image" src="https://github.com/user-attachments/assets/b7234c54-aefc-4309-bd9a-2e19ec18cb75" />
 
@@ -96,25 +95,25 @@ Note down the public IP address of the instance and click on connect
 
      ALTER USER 'root'@'localhost' IDENTIFIED BY 'Admin@123456789!';
 
-Reload all user permissions from the user table (MySQL stores user permissions in system tables, but it caches them in memory for performance)
+**Reload all user permissions from the user table (MySQL stores user permissions in system tables, but it caches them in memory for performance)**
 
      FLUSH PRIVILEGES;
 
-Test the MySQL server if it is working by running sample queries.
+**Test the MySQL server if it is working by running sample queries.**
 
      CREATE DATABASE mysql_test;
      
-     (This will create a database inside the MySQL server)
+**(This will create a database inside the MySQL server)**
      
      USE mysql_test;
 
      CREATE TABLE table1(id INT, name VARCHAR(45));
      
-     (This will create a table inside the mysql_test database. INT and VARCHAR are the data types for numbers and strings, respectively)
+**(This will create a table inside the mysql_test database. INT and VARCHAR are the data types for numbers and strings, respectively)**
      
      INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
      
-     (Assigning values to the table)
+**(Assigning values to the table)**
       
 <img width="1364" height="590" alt="image" src="https://github.com/user-attachments/assets/298ec30a-71b1-4746-8172-c52314e20efa" />
 
@@ -123,7 +122,7 @@ Test the MySQL server if it is working by running sample queries.
 
            SELECT *from table1;
            
-           (Viewing all the rows and columns in table1)
+**(Viewing all the rows and columns in table1)**
 
 <img width="1366" height="592" alt="image" src="https://github.com/user-attachments/assets/2f263050-6bc5-4d06-8495-8d3c470c27e8" />
 
