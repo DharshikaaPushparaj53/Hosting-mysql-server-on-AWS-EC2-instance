@@ -1,4 +1,4 @@
-<img width="1366" height="618" alt="image" src="https://github.com/user-attachments/assets/0d5834fb-14f2-49a5-b12c-74d790ac722b" /><img width="1366" height="618" alt="image" src="https://github.com/user-attachments/assets/61edb039-15bc-499b-999a-d4845b2ad687" /># Hosting-mysql-server-on-AWS-EC2-instance
+# Hosting-mysql-server-on-AWS-EC2-instance
 Documentation for AWS EC2 creation and MySQL server installation.
 Create the Elastic Compute Cloud (Virtual Machine)
 Step 1: Search for EC2
